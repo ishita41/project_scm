@@ -1,0 +1,199 @@
+body{
+   color: white;
+   margin: 0px;
+   padding: 0px;
+   background: url(beggers.jpg);
+   font-family: fantasy;
+   background-repeat: no-repeat;
+   background-size: 2000px 1300px;
+  
+}
+ .left{
+    display: inline-block;
+      /* border: 2px solid rgb(73, 30, 30); */
+      position: absolute;
+      margin: 0%;
+      left: 64px;
+      top: 20px;
+     font-family:'Pushster';
+ }
+ .left div{
+  text-align: center;
+  font-size: 26px;
+  line-height: 19px;
+ }
+ .left img{
+  width: 184px;
+  height: 103px;
+  top: 0%;
+ }
+ .mid{
+      /* border: 2px solid blue;   */
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+    top: 33px;
+    position: sticky;
+    text-align: center;
+ }
+
+  
+ .right{
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 30px;
+}
+ .navbar{
+    display: inline-block; 
+ }
+ .navbar li{
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+ }
+ .navbar li a{
+    color:  #9d001b;
+    text-decoration: none;
+    padding: 34px 23px;
+ }
+ .navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: blue;
+ }
+
+ .container{
+     /* border: 2px solid white;  */
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+    color: rgb(105, 90, 280);
+    }
+ .form-group input{
+    color: black;
+    text-align: center;
+    display: block;
+    width: 486px;
+    padding: 12px;
+    border: 2px solid gray;
+     margin: 10px auto;
+     border-radius: 10px;
+     font: size 25px; 
+     font-family: cursive;
+     font-size: 140%;
+ }
+ .gender{
+    color:grey;
+    border: 2px solid grey; 
+    text-align: center;
+    width: 488px;
+    margin-left: 30px;
+    background-color: #fff;
+    padding: 11px;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 23px;
+
+ }
+ .container h1{
+    text-align: center;
+ }
+ .container button{
+    display: block;
+    width: 515px;
+    margin: auto;
+ }
+
+
+.pp{
+  font-family: cursive;
+}
+.qw{
+   color: whitesmoke;
+   font-size: 20px;
+   font-family: cursive;
+}
+
+
+.icons{
+  text-align: center;
+  padding: 13px;
+  font-size: 20px;
+  justify-content:center;
+}
+footer{
+  background: black;
+  color: white;
+  padding: 9px 20px;
+  
+}
+.center{
+  text-align: center;
+  
+}
+.pp{
+  font-family: cursive;
+}
+
+/* Navigation Bar */
+#navbar{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  height: 89px;
+}
+#navbar::before{
+  content: "";
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+/*Navigation Bar: Logo and image */
+#logo{
+  height: 56px;
+margin: 4px 7px;
+}
+#logo img{
+  width: 58px;
+  height: 60px;
+  margin: -6px 45px;
+  
+}
+
+
+/*Navigation Bar: List Styling */
+
+#navbar ul{
+display: flex;
+font-family: 'Baloo Paaji 2', cursive;
+}
+#navbar ul li{
+  
+  list-style: none;
+  font-size: 1.3rem;
+
+  }
+
+  #navbar ul li a{
+      color: white;
+      display: block;
+      padding: 3px 33px;
+      border-radius: 20px;
+      text-decoration: none;
+      margin-right: 115px;
+      
+      }
+
+      #navbar ul li a:hover{
+          color: black;
+          background-color: white;
+          
+          }
